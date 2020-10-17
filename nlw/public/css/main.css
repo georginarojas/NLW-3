@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* keeps the total margim + padding fixed */
+}
+
+body {
+  height: 100vh;
+  color: white;
+  background: #ebf2f5;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body,
+input,
+button,
+textarea {
+  /* font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    font-family: 'Nunito', sans-serif; */
+  /* rem & em pega o tamanho da fonte pae ou a do vizinho mais perto respectivamente */
+  font: 400 1.8rem/1 "Nunito", sans-serif;
+}
