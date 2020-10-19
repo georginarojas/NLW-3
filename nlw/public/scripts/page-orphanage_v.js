@@ -6,9 +6,15 @@ const options = {
   zoomControl: false,
 };
 
+
+// Get lat and lng
+const lat = document.querySelector('span[data-lat]').dataset.lat;
+const lng = document.querySelector('span[data-lng]').dataset.lng;
+
+
 // Create Map
 // setView([latitude, longitude], zoom)
-const map = L.map("mapid", options).setView([-12.9491183, -38.4341287], 15);
+const map = L.map("mapid", options).setView([lat, lng], 15);
 
 // create and add titleLayer
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
@@ -24,7 +30,7 @@ const icon = L.icon({
 // Create and add marker
 // In js when the name of object and class is the same we put only one name
 // { icon : icon} != {icon: map}
-L.marker([-12.9491183, -38.4341287], { icon }).addTo(map);
+L.marker([lat, lng], { icon }).addTo(map);
 
 // Image gallery
 function selectImage(event) {
