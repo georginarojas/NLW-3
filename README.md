@@ -1,4 +1,16 @@
-# web
+<p align="center">
+  <img src="./happy/public/images/logo-readme.svg" width=350px />
+</p>
+
+<p align="center">
+    <a href="#-description">Description</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
+
+## Description
+
 Web programming (Front-end, Back-end, JavaScript, CSS, HTML)
 
 Rocketseat NLW-3
