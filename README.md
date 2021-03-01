@@ -25,3 +25,21 @@ Some business rules are:
 - CSS.
 - SQLite.
 - Handlebars.
+
+## Getting started
+Clone the project and access in the folder "happy"
+```bash
+$ git clone 
+$ cd happy/
+```
+Follow the steps below
+```bash
+# Install the dependencies
+$ yarn install or npm install
+$ npm install -g nodemon
+
+# Start the project
+$ yarn start or npm run start
+
+Open http://localhost:5500 to view the app in the browser.
+```
