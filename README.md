@@ -9,6 +9,7 @@
     <a href="#-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
+
 ## Description
 Next level week, third edition, made by the Rocketseat, is an intensive week where are studied some concepts about web development. For this edition, it was done a "happy" application, this app help people to find orphanages close to them, with a finality to encourage people to visit and share with the children of the orphanage. 
 Some business rules are: 
@@ -17,8 +18,10 @@ Some business rules are:
 - Register new orphanage.
 
 ## Technologies
+- Nodejs.
+- Express.
 - Html.
 - Javascript.
 - CSS.
-- Sqlite.
+- SQLite.
 - Handlebars.
