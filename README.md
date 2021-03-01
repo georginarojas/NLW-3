@@ -17,6 +17,15 @@ Some business rules are:
 - View information about the orphanage.
 - Register new orphanage.
 
+<p align="center">
+  <img src="./happy/public/images/home-readme.png" alt="Home" width=600px/>
+</p>
+
+<p align="center">
+  <img src="./happy/public/images/orphanage-perfil.svg" alt="Perfil" width=350px/>&nbsp;&nbsp;
+  <img src="./happy/public/images/orphanage-register.svg" alt="Register" width=322px/>
+</p>
+
 ## Technologies
 - Nodejs.
 - Express.
@@ -29,7 +38,7 @@ Some business rules are:
 ## Getting started
 Clone the project and access in the folder "happy"
 ```bash
-$ git clone 
+$ git clone https://github.com/georginarojas/NLW-3.git
 $ cd happy/
 ```
 Follow the steps below
@@ -43,3 +52,6 @@ $ yarn start or npm run start
 
 Open http://localhost:5500 to view the app in the browser.
 ```
+
+---
+<p align="center">Developed by Georgina Rojas :hearts:</p>
